@@ -1,5 +1,5 @@
 parsing:
-	jupyter notebook
+	jupyter notebook parsing.ipynb
 
 freeze:
 	pip freeze > requirements.txt
@@ -9,4 +9,7 @@ install:
 
 venv:
 	python3 -m venv venv
+	source venv/bin/activate
+
+activate: # won't work
 	source venv/bin/activate
