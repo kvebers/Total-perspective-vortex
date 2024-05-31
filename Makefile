@@ -1,7 +1,5 @@
-
-
-run:
-	data_processing.py
+parsing:
+	jupyter notebook
 
 freeze:
 	pip freeze > requirements.txt
